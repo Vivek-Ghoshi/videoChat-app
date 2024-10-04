@@ -5,7 +5,7 @@ let remote ;
 let peerConnection ;
 
 const rtcSettings = {
-    iceServers = [{urls:'your stun server'}],
+    iceServers : [{urls:'your stun server'}],
 }
 
 const initialize = async function () {
