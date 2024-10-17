@@ -16,9 +16,11 @@ const initialize = async function () {
     initiateOffer()
 };
 
+
 const initiateOffer = async function(){
     await createPeerConnection();
 };
+
 
 const createPeerConnection = async function(){
     peerConnection = new RTCPeerConnection(rtcSettings);

@@ -12,6 +12,7 @@ app.use(express.urlencoded({extended:true}));
 
 app.get('/',function(req,res){
     res.send('webrtc')
+    console.log('webrtc')
 });
 
 server.listen( process.env.PORT || 3000);
